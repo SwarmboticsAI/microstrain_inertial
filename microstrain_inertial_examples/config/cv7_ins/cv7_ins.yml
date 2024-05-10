@@ -29,9 +29,9 @@ microstrain_inertial_driver:
     filter_relative_position_config : True
     filter_relative_position_source : 2
 
-    # This will set the initial heading alignment to use the magnetometer
+    # This will set the initial heading alignment to use GNSS Kinematic Alignment
     # Note that if you have any form of external heading, it is probably better to set this to 8 in order to use that
-    filter_auto_heading_alignment_selector : 4
+    filter_auto_heading_alignment_selector : 2
 
     # Setup some aiding options.
     filter_enable_gnss_pos_vel_aiding : True
